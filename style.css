@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;  
+
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;    
+    gap: 20px;
+    align-items: center;
+   
+
+}
+.input{
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    width: 300px;
+}
+
+.btn{
+    background-color: grey;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    color:white;
+    font-weight: 600;
+
+}
+.mensaje{
+    color: red;
+    font-size: 1.2rem;
+}
+.card-container{
+    width:600px;
+    height: 300px;    
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: grey;
+    
+    
+}
+.name_pokemon{
+    margin-top: 10px;
+    font-size: 2rem;
+    color: white;
+}
+
+.img_pokemon{
+    width: 160px;    
+    
+}
+
+.card_info{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    background-color: grey;
+    color: white;
+}
